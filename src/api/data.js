@@ -1,4 +1,4 @@
-import { del, get, post, put } from "./api.js";
+import { del, get, post, put } from "https://dingi7.github.io/Quiz-Game/src/api/api.js";
 
 export async function getQuizes(){
     return await get('https://parseapi.back4app.com/classes/Quizzes')

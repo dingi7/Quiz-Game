@@ -1,7 +1,7 @@
 import { html, render } from 'https://unpkg.com/lit-html?module';
-import { getQuestionsByQuizId, getQuizById, uploadSubmition } from '../src/api/data.js';
-import { loadingTemplate } from './loading.js';
-import { renderSummary } from './summary.js';
+import { getQuestionsByQuizId, getQuizById, uploadSubmition } from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
+import { loadingTemplate } from 'https://dingi7.github.io/Quiz-Game/views/loading.js';
+import { renderSummary } from 'https://dingi7.github.io/Quiz-Game/views/summary.js';
 
 const template = (quiz, index) => html`
     <section id="quiz">

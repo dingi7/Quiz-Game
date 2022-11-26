@@ -1,6 +1,6 @@
 import { render, html } from 'https://unpkg.com/lit-html?module';
-import { getMostRecentQuiz, getNumberOfQuizes, getSubmitionsForQuiz, getTopics } from '../src/api/data.js';
-import { loadingTemplate } from './loading.js';
+import { getMostRecentQuiz, getNumberOfQuizes, getSubmitionsForQuiz, getTopics } from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
+import { loadingTemplate } from 'https://dingi7.github.io/Quiz-Game/views/loading.js';
 
 const homeTemplate = (recent, quizCount, topics, submitions) => html`
     <section id="welcome">

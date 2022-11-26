@@ -1,14 +1,14 @@
 import page from '//unpkg.com/page/page.mjs';
-import { initQuiz } from '../views/compete.js';
-import { renderCreate } from '../views/create.js';
-import { renderEdit } from '../views/edit.js';
-import { renderHome } from '../views/home.js';
-import { renderLogin } from '../views/login.js';
-import { renderNav } from '../views/nav.js'
-import { renderProfile } from '../views/profile.js';
-import { renderQuizBrowser } from '../views/quizBrowser.js';
-import { renderQuizDetails } from '../views/quizDetails.js';
-import { renderRegister } from '../views/register.js';
+import { initQuiz } from 'https://dingi7.github.io/Quiz-Game/views/compete.js';
+import { renderCreate } from 'https://dingi7.github.io/Quiz-Game/views/create.js';
+import { renderEdit } from 'https://dingi7.github.io/Quiz-Game/views/edit.js';
+import { renderHome } from 'https://dingi7.github.io/Quiz-Game/views/home.js';
+import { renderLogin } from 'https://dingi7.github.io/Quiz-Game/views/login.js';
+import { renderNav } from 'https://dingi7.github.io/Quiz-Game/views/nav.js'
+import { renderProfile } from 'https://dingi7.github.io/Quiz-Game/views/profile.js';
+import { renderQuizBrowser } from 'https://dingi7.github.io/Quiz-Game/views/quizBorwser.js';
+import { renderQuizDetails } from 'https://dingi7.github.io/Quiz-Game/views/quizDetails.js';
+import { renderRegister } from 'https://dingi7.github.io/Quiz-Game/views/register.js';
 
 page('/', nav, renderHome);
 page('/login', nav, renderLogin);

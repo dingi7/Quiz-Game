@@ -1,5 +1,5 @@
 import {render, html} from 'https://unpkg.com/lit-html?module';
-import { logout } from '../src/api/api.js';
+import { logout } from 'https://dingi7.github.io/Quiz-Game/views/register.js';
 
 const userNavTemplate = html`
                 <nav>

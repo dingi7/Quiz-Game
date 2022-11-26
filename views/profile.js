@@ -5,8 +5,8 @@ import {
     getSolutionsForUser,
     getSubmitionsForQuiz,
     getUserById,
-} from '../src/api/data.js';
-import { loadingTemplate } from './loading.js';
+} from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
+import { loadingTemplate } from 'https://dingi7.github.io/Quiz-Game/views/loading.js';
 import page from '//unpkg.com/page/page.mjs';
 
 const template = (user) => html`

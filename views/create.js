@@ -1,7 +1,7 @@
 import { render, html } from 'https://unpkg.com/lit-html?module';
-import { loadingTemplate } from './loading.js';
+import { loadingTemplate } from 'https://dingi7.github.io/Quiz-Game/views/loading.js';
 import page from '//unpkg.com/page/page.mjs';
-import { createNewQuiz } from '../src/api/data.js';
+import { createNewQuiz } from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
 
 const createNew = html`
                 <section id="editor">

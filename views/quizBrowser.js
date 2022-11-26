@@ -1,5 +1,5 @@
 import {render, html} from 'https://unpkg.com/lit-html?module';
-import { getQuizes, getSubmitionsForQuiz } from '../src/api/data.js';
+import { getQuizes, getSubmitionsForQuiz } from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
 
 const template = html`
             <section id="browse">

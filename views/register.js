@@ -1,6 +1,6 @@
 import { render, html } from 'https://unpkg.com/lit-html?module';
 import page from '//unpkg.com/page/page.mjs';
-import { register } from '../src/api/api.js';
+import { register } from 'https://dingi7.github.io/Quiz-Game/views/register.js';
 
 const registerPageTemplate = html`
                 <section id="register">

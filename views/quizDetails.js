@@ -1,6 +1,6 @@
 import {render, html} from 'https://unpkg.com/lit-html?module';
-import { getQuizById, getSubmitionsForQuiz } from '../src/api/data.js';
-import { loadingTemplate } from './loading.js';
+import { getQuizById, getSubmitionsForQuiz } from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
+import { loadingTemplate } from 'https://dingi7.github.io/Quiz-Game/views/loading.js';
 
 const template = (quiz, timesSoluted) => 
      html`
