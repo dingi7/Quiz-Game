@@ -1,7 +1,7 @@
 import {html, render} from 'https://unpkg.com/lit-html?module';
 import { createQuestion, deleteQuestionById, getNumberOfQuestionsForQuiz, getQuestionsByQuizId, getQuizById, updateQuizQuestionNumbers } from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
 import { loadingTemplate } from 'https://dingi7.github.io/Quiz-Game/views/loading.js';
-import page from '//unpkg.com/page/page.mjs';
+import page from 'https://unpkg.com/page/page.mjs';
 
 const createdQuestions = (question, index) => html`
     <div id="created">

@@ -1,5 +1,5 @@
 import { render, html } from 'https://unpkg.com/lit-html?module';
-import page from '//unpkg.com/page/page.mjs';
+import page from 'https://unpkg.com/page/page.mjs';
 import { login } from 'https://dingi7.github.io/Quiz-Game/views/register.js';
 
 const loginPageTemplate = html`

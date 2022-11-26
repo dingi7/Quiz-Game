@@ -1,6 +1,6 @@
 import { render, html } from 'https://unpkg.com/lit-html?module';
 import { loadingTemplate } from 'https://dingi7.github.io/Quiz-Game/views/loading.js';
-import page from '//unpkg.com/page/page.mjs';
+import page from 'https://unpkg.com/page/page.mjs';
 import { createNewQuiz } from 'https://dingi7.github.io/Quiz-Game/src/api/data.js';
 
 const createNew = html`
