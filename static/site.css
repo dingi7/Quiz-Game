@@ -1,10 +1,10 @@
-@import "./layout.css";
-@import "./style.css";
-@import "./quiz.css";
-@import "./editor.css";
-@import "./animate.css";
-@import "./auth.css";
-@import "./profile.css";
+@import "https://dingi7.github.io/Quiz-Game/static/layout.css";
+@import "https://dingi7.github.io/Quiz-Game/static/style.css";
+@import "https://dingi7.github.io/Quiz-Game/static/quiz.css";
+@import "https://dingi7.github.io/Quiz-Game/static/editor.css";
+@import "https://dingi7.github.io/Quiz-Game/static/animate.css";
+@import "https://dingi7.github.io/Quiz-Game/static/auth.css";
+@import "https://dingi7.github.io/Quiz-Game/static/profile.css";
 
 #views {
     display: none;
