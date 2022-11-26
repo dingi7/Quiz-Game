@@ -28,7 +28,7 @@ body {
 #titlebar {
     margin: auto;
     height: 128px;
-    background-image: url("/assets/header.png");
+    background-image: url("https://dingi7.github.io/Quiz-Game/assets/header.png");
     position: relative;
 }
 
@@ -145,7 +145,7 @@ footer {
 }
 
 .hero {
-    background-image: url("/assets/pattern.png");
+    background-image: url("https://dingi7.github.io/Quiz-Game/assets/pattern.png");
     padding: 64px;
 }
 
