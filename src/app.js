@@ -1,4 +1,4 @@
-import page from 'https://unpkg.com/page/page.mjs';
+import page from "https://unpkg.com/page/page.mjs";
 import { initQuiz } from 'https://dingi7.github.io/Quiz-Game/views/compete.js';
 import { renderCreate } from 'https://dingi7.github.io/Quiz-Game/views/create.js';
 import { renderEdit } from 'https://dingi7.github.io/Quiz-Game/views/edit.js';
@@ -32,5 +32,6 @@ function nav(ctx,next){
     }
     ctx.nav = nav
     renderNav(ctx, next)
+    ctx.render = 'render'
     next();
 }
