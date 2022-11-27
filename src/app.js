@@ -5,7 +5,7 @@ import { renderHome } from 'https://dingi7.github.io/Quiz-Game/views/home.js';
 import { renderLogin } from 'https://dingi7.github.io/Quiz-Game/views/login.js';
 import { renderNav } from 'https://dingi7.github.io/Quiz-Game/views/nav.js';
 import { renderProfile } from 'https://dingi7.github.io/Quiz-Game/views/profile.js';
-import { renderQuizBrowser } from 'https://dingi7.github.io/Quiz-Game/views/quizBorwser.js';
+import { renderQuizBrowser } from 'https://dingi7.github.io/Quiz-Game/views/quizBrowser.js';
 import { renderQuizDetails } from 'https://dingi7.github.io/Quiz-Game/views/quizDetails.js';
 import { renderRegister } from 'https://dingi7.github.io/Quiz-Game/views/register.js';
 import page from 'https://unpkg.com/page/page.mjs';
