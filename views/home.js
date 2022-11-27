@@ -45,6 +45,7 @@ const homeTemplate = (recent, quizCount, topics, submitions) => html`
 
 
 export async function renderHome() {
+    console.log('hi');
     render(loadingTemplate, document.querySelector('main'));
     const numberOfQuizes = await getNumberOfQuizes();
     const recent = await getMostRecentQuiz();
